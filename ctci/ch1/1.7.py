@@ -1,5 +1,12 @@
 def rotate_matrx(matrix):
     n = len(matrix[0])
+    # square matrix
+    if n==0 or n != len(matrix):
+        return 0
+
+    for layer in range(n//2):
+        start =  layer
+
 
 
 matrix = [
