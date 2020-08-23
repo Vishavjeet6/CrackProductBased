@@ -26,7 +26,7 @@ def partition(head, k):
     ll_head = head
     ll_tail = head
     temp = head
-    while(head):
+    while(temp):
         if temp.data < k:
             temp.next = ll_head
             ll_head = temp
