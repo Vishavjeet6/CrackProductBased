@@ -82,7 +82,6 @@ class LinkedList:
     def remove_inbetween(self, node):
         if self.head is None:
             return
-        # self.size -= 1
         if self.head.data == node:
             self.head = self.head.next
             self.size -= 1
